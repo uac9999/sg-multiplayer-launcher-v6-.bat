@@ -37,14 +37,14 @@ echo [Q] Beenden
 echo ==================================================
 set /p wahl=Waehle (1-8) zum Verbinden: 
 
-if "%wahl%"=="1" start "" "D:\Game\Smokin' Guns_Beta\smokinguns.exe" +connect !S1!:27959
-if "%wahl%"=="2" start "" "D:\Game\Smokin' Guns_Beta\smokinguns.exe" +connect !S2!:27962
-if "%wahl%"=="3" start "" "D:\Game\Smokin' Guns_Beta\smokinguns.exe" +connect !S3!:27960
-if "%wahl%"=="4" start "" "D:\Game\Smokin' Guns_Beta\smokinguns.exe" +connect !S4!:27960
-if "%wahl%"=="5" start "" "D:\Game\Smokin' Guns_Beta\smokinguns.exe" +connect !S5!:27970
-if "%wahl%"=="6" start "" "D:\Game\Smokin' Guns_Beta\smokinguns.exe" +connect !S5!:27971
-if "%wahl%"=="7" start "" "D:\Game\Smokin' Guns_Beta\smokinguns.exe" +connect !S5!:27974
-if "%wahl%"=="8" start "" "D:\Game\Smokin' Guns_Beta\smokinguns.exe" +connect !S6!:27970
+if "%wahl%"=="1" start "" "C:\Smokinguns\smokinguns.exe" +connect !S1!:27959
+if "%wahl%"=="2" start "" "C:\Smokinguns\smokinguns.exe" +connect !S2!:27962
+if "%wahl%"=="3" start "" "C:\Smokinguns\smokinguns.exe" +connect !S3!:27960
+if "%wahl%"=="4" start "" "C:\Smokinguns\smokinguns.exe" +connect !S4!:27960
+if "%wahl%"=="5" start "" "C:\Smokinguns\smokinguns.exe" +connect !S5!:27970
+if "%wahl%"=="6" start "" "C:\Smokinguns\smokinguns.exe" +connect !S5!:27971
+if "%wahl%"=="7" start "" "C:\Smokinguns\smokinguns.exe" +connect !S5!:27974
+if "%wahl%"=="8" start "" "C:\Smokinguns\smokinguns.exe" +connect !S6!:27970
 if /i "%wahl%"=="r" goto menu
 if /i "%wahl%"=="q" exit
 goto menu
